@@ -16,12 +16,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 1680
-    height: 967
+    width: 1920
+    height: 997
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 548}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -42,12 +42,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1680
-    height: 917
-  m_MinSize: {x: 681, y: 498}
+    width: 1920
+    height: 947
+  m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 166
+  controlID: 103
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,15 +63,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1235
+    x: 1589
     y: 0
-    width: 445
-    height: 917
+    width: 331
+    height: 947
   m_MinSize: {x: 277, y: 74}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
@@ -92,13 +92,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 307
-    height: 556
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 231
+    height: 664
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -117,15 +117,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 556
-    width: 1235
-    height: 361
+    y: 664
+    width: 1589
+    height: 283
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -148,9 +148,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1680
-    height: 967
-  m_MinSize: {x: 950, y: 548}
+    width: 1920
+    height: 997
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -169,7 +169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1680
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -190,8 +190,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 947
-    width: 1680
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -214,12 +214,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1235
-    height: 917
-  m_MinSize: {x: 404, y: 498}
+    width: 1589
+    height: 947
+  m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 167
+  controlID: 104
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -239,12 +239,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1235
-    height: 556
-  m_MinSize: {x: 404, y: 224}
-  m_MaxSize: {x: 8004, y: 4024}
+    width: 1589
+    height: 664
+  m_MinSize: {x: 406, y: 224}
+  m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 168
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,16 +260,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 307
+    x: 231
     y: 0
-    width: 928
-    height: 556
+    width: 1358
+    height: 664
   m_MinSize: {x: 204, y: 224}
   m_MaxSize: {x: 4004, y: 4024}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -292,17 +293,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1235
+    x: 1411
     y: 73
-    width: 443
-    height: 897
+    width: 507
+    height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -389,7 +390,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
+    currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -403,138 +404,36 @@ MonoBehaviour:
       folders:
         keys:
         - DungeonChef
-        - DungeonChef\.vs
-        - DungeonChef\.vs\DungeonChef
-        - DungeonChef\.vs\DungeonChef\v15
-        - DungeonChef\.vs\DungeonChef\v15\Server
-        - DungeonChef\.vs\DungeonChef\v15\Server\sqlite3
         - DungeonChef\Assets
-        - DungeonChef\Assets\Scenes
-        - DungeonChef\Assets\Scripts
-        - DungeonChef\Assets\Textures
-        - DungeonChef\Assets\Textures\UI
+        - DungeonChef\Assets\Meshs
         - DungeonChef\Library
         - DungeonChef\Library\gfu
         - DungeonChef\Library\gfu\cache
         - DungeonChef\Library\metadata
-        - DungeonChef\Library\metadata\03
-        - DungeonChef\Library\metadata\07
         - DungeonChef\Library\metadata\10
-        - DungeonChef\Library\metadata\2c
-        - DungeonChef\Library\metadata\47
-        - DungeonChef\Library\metadata\8c
-        - DungeonChef\Library\metadata\95
-        - DungeonChef\Library\metadata\ac
-        - DungeonChef\Library\metadata\be
+        - DungeonChef\Library\metadata\54
+        - DungeonChef\Library\metadata\62
+        - DungeonChef\Library\metadata\85
+        - DungeonChef\Library\metadata\8d
+        - DungeonChef\Library\metadata\90
+        - DungeonChef\Library\metadata\96
+        - DungeonChef\Library\metadata\a3
         - DungeonChef\Library\metadata\c2
-        - DungeonChef\Library\metadata\c8
         - DungeonChef\Library\ScriptAssemblies
         - DungeonChef\Library\ShaderCache
         - DungeonChef\Library\ShaderCache\0
-        - DungeonChef\Library\ShaderCache\6
+        - DungeonChef\Library\ShaderCache\2
+        - DungeonChef\Library\ShaderCache\3
+        - DungeonChef\Library\ShaderCache\4
         - DungeonChef\Library\ShaderCache\7
-        - DungeonChef\Library\ShaderCache\8
-        - DungeonChef\Library\StateCache
-        - DungeonChef\Library\StateCache\Hierarchy
-        - DungeonChef\Library\StateCache\SceneView
-        - DungeonChef\obj
-        - DungeonChef\obj\Debug
+        - DungeonChef\Library\ShaderCache\b
+        - DungeonChef\Library\ShaderCache\e
         - DungeonChef\Temp
         - DungeonChef\Temp\ProcessJobs
         values:
         - path: DungeonChef
           label: DungeonChef
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\.vs
-          label: .vs
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\.vs\DungeonChef
-          label: DungeonChef
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\.vs\DungeonChef\v15
-          label: v15
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\.vs\DungeonChef\v15\Server
-          label: Server
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3
-          label: sqlite3
-          level: 5
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -568,63 +467,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Assets\Scenes
-          label: Scenes
+        - path: DungeonChef\Assets\Meshs
+          label: Meshs
           level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Assets\Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Assets\Textures
-          label: Textures
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Assets\Textures\UI
-          label: UI
-          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -712,42 +557,6 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\03
-          label: 03
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\07
-          label: 07
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: DungeonChef\Library\metadata\10
           label: 10
           level: 3
@@ -766,8 +575,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\2c
-          label: 2c
+        - path: DungeonChef\Library\metadata\54
+          label: 54
           level: 3
           isFolder: 1
           isContainer: 0
@@ -784,8 +593,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\47
-          label: 47
+        - path: DungeonChef\Library\metadata\62
+          label: 62
           level: 3
           isFolder: 1
           isContainer: 0
@@ -802,8 +611,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\8c
-          label: 8c
+        - path: DungeonChef\Library\metadata\85
+          label: 85
           level: 3
           isFolder: 1
           isContainer: 0
@@ -820,8 +629,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\95
-          label: 95
+        - path: DungeonChef\Library\metadata\8d
+          label: 8d
           level: 3
           isFolder: 1
           isContainer: 0
@@ -838,8 +647,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\ac
-          label: ac
+        - path: DungeonChef\Library\metadata\90
+          label: 90
           level: 3
           isFolder: 1
           isContainer: 0
@@ -856,8 +665,26 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\be
-          label: be
+        - path: DungeonChef\Library\metadata\96
+          label: 96
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: DungeonChef\Library\metadata\a3
+          label: a3
           level: 3
           isFolder: 1
           isContainer: 0
@@ -876,24 +703,6 @@ MonoBehaviour:
             workTreeStatus: 0
         - path: DungeonChef\Library\metadata\c2
           label: c2
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Library\metadata\c8
-          label: c8
           level: 3
           isFolder: 1
           isContainer: 0
@@ -964,8 +773,44 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\ShaderCache\6
-          label: 6
+        - path: DungeonChef\Library\ShaderCache\2
+          label: 2
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: DungeonChef\Library\ShaderCache\3
+          label: 3
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: DungeonChef\Library\ShaderCache\4
+          label: 4
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1000,8 +845,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\ShaderCache\8
-          label: 8
+        - path: DungeonChef\Library\ShaderCache\b
+          label: b
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1018,85 +863,13 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: DungeonChef\Library\StateCache
-          label: StateCache
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Library\StateCache\Hierarchy
-          label: Hierarchy
+        - path: DungeonChef\Library\ShaderCache\e
+          label: e
           level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\Library\StateCache\SceneView
-          label: SceneView
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\obj
-          label: obj
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: DungeonChef\obj\Debug
-          label: Debug
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1190,222 +963,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\.vs
-        label: .vs
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\.vs\DungeonChef
-        label: DungeonChef
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\.vs\DungeonChef\v15
-        label: v15
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\.vs\DungeonChef\v15\.suo
-        label: .suo
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\.vs\DungeonChef\v15\.suo
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\.suo
-          projectPath: .vs\DungeonChef\v15\.suo
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\.vs\DungeonChef\v15\Server
-        label: Server
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3
-        label: sqlite3
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\db.lock
-        label: db.lock
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\db.lock
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\db.lock
-          projectPath: .vs\DungeonChef\v15\Server\sqlite3\db.lock
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide
-        label: storage.ide
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide
-          projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-        label: storage.ide-shm
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-          projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-        label: storage.ide-wal
-        level: 6
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-          projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assembly-CSharp.csproj
-        label: Assembly-CSharp.csproj
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assembly-CSharp.csproj
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assembly-CSharp.csproj
-          projectPath: Assembly-CSharp.csproj
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-        label: Assembly-CSharp-Editor-firstpass.csproj
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-          projectPath: Assembly-CSharp-Editor-firstpass.csproj
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: DungeonChef\Assets
         label: Assets
         level: 1
@@ -1424,8 +981,44 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Assets\Scenes
-        label: Scenes
+      - path: DungeonChef\Assets\Materials.meta
+        label: Materials.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Assets\Materials.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Materials.meta
+          projectPath: Assets\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Assets\Meshs.meta
+        label: Meshs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Assets\Meshs.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs.meta
+          projectPath: Assets\Meshs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Assets\Meshs
+        label: Meshs
         level: 2
         isFolder: 1
         isContainer: 0
@@ -1442,8 +1035,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Assets\Scenes\UIScene.unity
-        label: UIScene.unity
+      - path: DungeonChef\Assets\Meshs\G_Tile_01.fbx
+        label: G_Tile_01.fbx
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1454,14 +1047,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scenes\UIScene.unity
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scenes\UIScene.unity
-          projectPath: Assets\Scenes\UIScene.unity
+          path: DungeonChef\Assets\Meshs\G_Tile_01.fbx
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Tile_01.fbx
+          projectPath: Assets\Meshs\G_Tile_01.fbx
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Scenes\UIScene.unity.meta
-        label: UIScene.unity.meta
+      - path: DungeonChef\Assets\Meshs\G_Tile_01.fbx.meta
+        label: G_Tile_01.fbx.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1472,50 +1065,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scenes\UIScene.unity.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scenes\UIScene.unity.meta
-          projectPath: Assets\Scenes\UIScene.unity.meta
+          path: DungeonChef\Assets\Meshs\G_Tile_01.fbx.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Tile_01.fbx.meta
+          projectPath: Assets\Meshs\G_Tile_01.fbx.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts.meta
-        label: Scripts.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts.meta
-          projectPath: Assets\Scripts.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts
-        label: Scripts
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Assets\Scripts\BasicLayout.png
-        label: BasicLayout.png
+      - path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx
+        label: G_TileCharacter_01.fbx
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1526,14 +1083,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\BasicLayout.png
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\BasicLayout.png
-          projectPath: Assets\Scripts\BasicLayout.png
+          path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx
+          projectPath: Assets\Meshs\G_TileCharacter_01.fbx
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\BasicLayout.png.meta
-        label: BasicLayout.png.meta
+      - path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx.meta
+        label: G_TileCharacter_01.fbx.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1544,14 +1101,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\BasicLayout.png.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\BasicLayout.png.meta
-          projectPath: Assets\Scripts\BasicLayout.png.meta
+          path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx.meta
+          projectPath: Assets\Meshs\G_TileCharacter_01.fbx.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Effect.cs
-        label: Effect.cs
+      - path: DungeonChef\Assets\Meshs\G_Walls_01.fbx
+        label: G_Walls_01.fbx
         level: 3
         isFolder: 0
         isContainer: 1
@@ -1562,14 +1119,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Effect.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Effect.cs
-          projectPath: Assets\Scripts\Effect.cs
+          path: DungeonChef\Assets\Meshs\G_Walls_01.fbx
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Walls_01.fbx
+          projectPath: Assets\Meshs\G_Walls_01.fbx
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Effect.cs.meta
-        label: Effect.cs.meta
+      - path: DungeonChef\Assets\Meshs\G_Walls_01.fbx.meta
+        label: G_Walls_01.fbx.meta
         level: 4
         isFolder: 0
         isContainer: 0
@@ -1580,153 +1137,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Effect.cs.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Effect.cs.meta
-          projectPath: Assets\Scripts\Effect.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Ingredient.cs
-        label: Ingredient.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Ingredient.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Ingredient.cs
-          projectPath: Assets\Scripts\Ingredient.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Ingredient.cs.meta
-        label: Ingredient.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Ingredient.cs.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Ingredient.cs.meta
-          projectPath: Assets\Scripts\Ingredient.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\InventoryItem.cs
-        label: InventoryItem.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\InventoryItem.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\InventoryItem.cs
-          projectPath: Assets\Scripts\InventoryItem.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\InventoryItem.cs.meta
-        label: InventoryItem.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\InventoryItem.cs.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\InventoryItem.cs.meta
-          projectPath: Assets\Scripts\InventoryItem.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\ItemDragHandler.cs
-        label: ItemDragHandler.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\ItemDragHandler.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\ItemDragHandler.cs
-          projectPath: Assets\Scripts\ItemDragHandler.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\ItemDragHandler.cs.meta
-        label: ItemDragHandler.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\ItemDragHandler.cs.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\ItemDragHandler.cs.meta
-          projectPath: Assets\Scripts\ItemDragHandler.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Recipe.cs
-        label: Recipe.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Recipe.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Recipe.cs
-          projectPath: Assets\Scripts\Recipe.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Scripts\Recipe.cs.meta
-        label: Recipe.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Scripts\Recipe.cs.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Recipe.cs.meta
-          projectPath: Assets\Scripts\Recipe.cs.meta
+          path: DungeonChef\Assets\Meshs\G_Walls_01.fbx.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Walls_01.fbx.meta
+          projectPath: Assets\Meshs\G_Walls_01.fbx.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1743,32 +1156,14 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Assets\Textures.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Textures.meta
           projectPath: Assets\Textures.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Assets\Textures
-        label: Textures
+      - path: DungeonChef\Assets\VFX.meta
+        label: VFX.meta
         level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Assets\Textures\UI.meta
-        label: UI.meta
-        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1778,81 +1173,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Assets\Textures\UI.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI.meta
-          projectPath: Assets\Textures\UI.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Textures\UI
-        label: UI
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Assets\Textures\UI\InventoryTile.png
-        label: InventoryTile.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Textures\UI\InventoryTile.png
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI\InventoryTile.png
-          projectPath: Assets\Textures\UI\InventoryTile.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Assets\Textures\UI\InventoryTile.png.meta
-        label: InventoryTile.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Assets\Textures\UI\InventoryTile.png.meta
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI\InventoryTile.png.meta
-          projectPath: Assets\Textures\UI\InventoryTile.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\DungeonChef.sln
-        label: DungeonChef.sln
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\DungeonChef.sln
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\DungeonChef.sln
-          projectPath: DungeonChef.sln
+          path: DungeonChef\Assets\VFX.meta
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\VFX.meta
+          projectPath: Assets\VFX.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1887,7 +1210,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\assetDatabase3
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\assetDatabase3
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\assetDatabase3
           projectPath: Library\assetDatabase3
           originalPath: 
           indexStatus: 0
@@ -1905,29 +1228,11 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\EditorInstance.json
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\EditorInstance.json
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\EditorInstance.json
           projectPath: Library\EditorInstance.json
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\EditorUserBuildSettings.asset
-        label: EditorUserBuildSettings.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\EditorUserBuildSettings.asset
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\EditorUserBuildSettings.asset
-          projectPath: Library\EditorUserBuildSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       - path: DungeonChef\Library\gfu
         label: gfu
         level: 2
@@ -1977,7 +1282,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\gfu\cache\gitlocks.yaml
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gitlocks.yaml
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gitlocks.yaml
           projectPath: Library\gfu\cache\gitlocks.yaml
           originalPath: 
           indexStatus: 0
@@ -1995,7 +1300,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\gfu\cache\gitstatusentries.yaml
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gitstatusentries.yaml
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gitstatusentries.yaml
           projectPath: Library\gfu\cache\gitstatusentries.yaml
           originalPath: 
           indexStatus: 0
@@ -2013,7 +1318,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
           projectPath: Library\gfu\cache\gittrackingstatus.yaml
           originalPath: 
           indexStatus: 0
@@ -2031,7 +1336,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\gfu\cache\repoinfo.yaml
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\repoinfo.yaml
           projectPath: Library\gfu\cache\repoinfo.yaml
           originalPath: 
           indexStatus: 0
@@ -2054,114 +1359,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\03
-        label: 03
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-        label: 030b64929d1ac2d4aa1e174a496cf1ba
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-          projectPath: Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-        label: 030b64929d1ac2d4aa1e174a496cf1ba.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-          projectPath: Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\07
-        label: 07
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-        label: 072b0971ee89bf94992ac5d096cac0a7
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-          projectPath: Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-        label: 072b0971ee89bf94992ac5d096cac0a7.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-          projectPath: Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: DungeonChef\Library\metadata\10
         label: 10
         level: 3
@@ -2180,8 +1377,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-        label: 107fe65136f33aa408cb294dd4ddc3e4
+      - path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1
+        label: 10639903c36855f4490470bcdb4178b1
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2192,14 +1389,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-          projectPath: Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
+          path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1
+          projectPath: Library\metadata\10\10639903c36855f4490470bcdb4178b1
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
-        label: 107fe65136f33aa408cb294dd4ddc3e4.info
+      - path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
+        label: 10639903c36855f4490470bcdb4178b1.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2210,14 +1407,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
-          projectPath: Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
+          path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
+          projectPath: Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\2c
-        label: 2c
+      - path: DungeonChef\Library\metadata\54
+        label: 54
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2234,8 +1431,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
-        label: 2c2642ff0ad3d8e4ca48a8ec47fccbb1
+      - path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad
+        label: 54f11e38226643048b8a581df74dddad
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2246,14 +1443,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
-          projectPath: Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
+          path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad
+          projectPath: Library\metadata\54\54f11e38226643048b8a581df74dddad
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
-        label: 2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
+      - path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad.info
+        label: 54f11e38226643048b8a581df74dddad.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2264,14 +1461,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
-          projectPath: Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
+          path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad.info
+          projectPath: Library\metadata\54\54f11e38226643048b8a581df74dddad.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\47
-        label: 47
+      - path: DungeonChef\Library\metadata\62
+        label: 62
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2288,8 +1485,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
-        label: 47c3cf4f0af8b73479db75f011f9cd4e
+      - path: DungeonChef\Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+        label: 62772aad98ed04f0d955b7d20de61f7f
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2300,32 +1497,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
-          projectPath: Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
+          path: DungeonChef\Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+          projectPath: Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-        label: 47c3cf4f0af8b73479db75f011f9cd4e.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-          projectPath: Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\8c
-        label: 8c
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\metadata\85
+        label: 85
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2342,8 +1521,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
-        label: 8ca099d9fb5dd4340b62ab0eb17bde1b
+      - path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
+        label: 85b684e46b0bfe34488cb6876ebbf1ec
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2354,14 +1533,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
-          projectPath: Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
+          path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
+          projectPath: Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
-        label: 8ca099d9fb5dd4340b62ab0eb17bde1b.info
+      - path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
+        label: 85b684e46b0bfe34488cb6876ebbf1ec.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2372,14 +1551,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
-          projectPath: Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
+          path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
+          projectPath: Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\95
-        label: 95
+      - path: DungeonChef\Library\metadata\8d
+        label: 8d
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2396,8 +1575,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-        label: 95ce78993fbfa644a848aa67ff819069
+      - path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
+        label: 8d6e90132c9a9a24ca27a4028ca68bde
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2408,14 +1587,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-          projectPath: Library\metadata\95\95ce78993fbfa644a848aa67ff819069
+          path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
+          projectPath: Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-        label: 95ce78993fbfa644a848aa67ff819069.info
+      - path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
+        label: 8d6e90132c9a9a24ca27a4028ca68bde.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2426,14 +1605,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-          projectPath: Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
+          path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
+          projectPath: Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\ac
-        label: ac
+      - path: DungeonChef\Library\metadata\90
+        label: 90
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2450,8 +1629,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-        label: acfe06c87f12b9b47a403d2cd6dee8b1
+      - path: DungeonChef\Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+        label: 90791303b72ec4ae198f99d637dfdf6c
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2462,32 +1641,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-          projectPath: Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
+          path: DungeonChef\Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+          projectPath: Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-        label: acfe06c87f12b9b47a403d2cd6dee8b1.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-          projectPath: Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\be
-        label: be
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\metadata\96
+        label: 96
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2504,8 +1665,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-        label: bece0b3fa9643894db93b7ea01ccd7f7
+      - path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1
+        label: 961511876f3e1ed448698dfb08210db1
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2516,14 +1677,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-          projectPath: Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
+          path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1
+          projectPath: Library\metadata\96\961511876f3e1ed448698dfb08210db1
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-        label: bece0b3fa9643894db93b7ea01ccd7f7.info
+      - path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+        label: 961511876f3e1ed448698dfb08210db1.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2534,9 +1695,63 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-          projectPath: Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
+          path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+          projectPath: Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Library\metadata\a3
+        label: a3
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+        label: a3f75341d15df6646b825c593807ef99
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+          projectPath: Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
+        label: a3f75341d15df6646b825c593807ef99.info
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
+          projectPath: Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -2558,8 +1773,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-        label: c20e8f1129214e4469f8f2b69d5b55ef
+      - path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
+        label: c29dba896c18e7b498e36148ece925d5
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2570,14 +1785,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-          projectPath: Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
+          path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
+          projectPath: Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-        label: c20e8f1129214e4469f8f2b69d5b55ef.info
+      - path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
+        label: c29dba896c18e7b498e36148ece925d5.info
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2588,63 +1803,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-          projectPath: Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\c8
-        label: c8
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-        label: c8bcae7cc36f7cc4aa3ffa1801c96dc0
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-          projectPath: Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-        label: c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-          projectPath: Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
+          path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
+          projectPath: Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -2666,42 +1827,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-        label: Assembly-CSharp.dll
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-        label: Assembly-CSharp.pdb
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-          projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
         label: Assembly-CSharp-Editor-firstpass.dll
         level: 3
@@ -2715,8 +1840,26 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
           projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+        label: Assembly-CSharp-Editor-firstpass.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2733,8 +1876,26 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
           projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+        label: Unity.Analytics.DataPrivacy.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+          projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2751,8 +1912,26 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
           projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+        label: Unity.CollabProxy.Editor.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2769,8 +1948,26 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
           projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+        label: Unity.PackageManagerUI.Editor.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2787,7 +1984,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
           projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
           originalPath: 
           indexStatus: 0
@@ -2805,8 +2002,44 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
           projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+        label: Unity.TextMeshPro.Editor.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+        label: Unity.TextMeshPro.pdb
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+          projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2859,13 +2092,13 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
           projectPath: Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\ShaderCache\6
-        label: 6
+      - path: DungeonChef\Library\ShaderCache\2
+        label: 2
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2882,8 +2115,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
-        label: 63793b4b96ef36203b8d8a7254cb0b0a.bin
+      - path: DungeonChef\Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
+        label: 262f85d052883249b31769db2c544b41.bin
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2894,14 +2127,32 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
-          projectPath: Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
+          path: DungeonChef\Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
+          projectPath: Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
-        label: 6c64b0a2ffcf3c05b650d28864f294f2.bin
+      - path: DungeonChef\Library\ShaderCache\3
+        label: 3
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: DungeonChef\Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+        label: 3b79803cd3568cd5b47496befe53e116.bin
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2912,9 +2163,63 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
-          projectPath: Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
+          path: DungeonChef\Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+          projectPath: Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+        label: 3fa8086c4db65c5aa5035ba87fd56952.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+          projectPath: Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: DungeonChef\Library\ShaderCache\4
+        label: 4
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: DungeonChef\Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
+        label: 4292a86478164c0fbbcf803b2f9282d7.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: DungeonChef\Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
+          projectPath: Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -2936,24 +2241,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-        label: 718d6d4e28ccd5a7c4590632b29a5330.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-          projectPath: Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
         label: 7c0327b0ca1536bbbc37e1e4d72a9e95.bin
         level: 4
@@ -2967,31 +2254,13 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
           projectPath: Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-        label: 7c55024901f570ea139064159b86fef4.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-          projectPath: Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Library\ShaderCache\8
-        label: 8
+      - path: DungeonChef\Library\ShaderCache\b
+        label: b
         level: 3
         isFolder: 1
         isContainer: 0
@@ -3008,8 +2277,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: DungeonChef\Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-        label: 8954d6415974260457e3bbce81663222.bin
+      - path: DungeonChef\Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
+        label: b8dfab945a2ec1856cf7d3ffa1a948a1.bin
         level: 4
         isFolder: 0
         isContainer: 0
@@ -3020,14 +2289,32 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-          projectPath: Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
+          path: DungeonChef\Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
+          projectPath: Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
-        label: 8b6a38aca9263fcd0f874d732768b38c.bin
+      - path: DungeonChef\Library\ShaderCache\e
+        label: e
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: DungeonChef\Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
+        label: e3fe1503f0367286bf8798a5068d96bf.bin
         level: 4
         isFolder: 0
         isContainer: 0
@@ -3038,9 +2325,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
-          projectPath: Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
+          path: DungeonChef\Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
+          projectPath: Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -3057,281 +2344,11 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
           projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: DungeonChef\Library\StateCache
-        label: StateCache
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\StateCache\Hierarchy
-        label: Hierarchy
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-        label: f2ce7a-mainStage.json
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-          projectPath: Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: DungeonChef\Library\StateCache\SceneView
-        label: SceneView
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\Library\StateCache\SceneView\ec53bc-mainStage.json
-        label: ec53bc-mainStage.json
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Library\StateCache\SceneView\ec53bc-mainStage.json
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\StateCache\SceneView\ec53bc-mainStage.json
-          projectPath: Library\StateCache\SceneView\ec53bc-mainStage.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: DungeonChef\obj
-        label: obj
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\obj\Debug
-        label: Debug
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: DungeonChef\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-        label: Assembly-CSharp.csprojAssemblyReference.cache
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-        label: Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        label: Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-        label: DesignTimeResolveAssemblyReferencesInput.cache
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-          projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-        label: TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-          projectPath: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-        label: TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-          projectPath: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-        label: TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-          projectPath: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: DungeonChef\Temp
         label: Temp
         level: 1
@@ -3381,7 +2398,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
           projectPath: Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
           originalPath: 
           indexStatus: 1
@@ -3399,7 +2416,7 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
           projectPath: Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
           originalPath: 
           indexStatus: 1
@@ -3417,13 +2434,13 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: DungeonChef\Temp\UnityLockfile
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityLockfile
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityLockfile
           projectPath: Temp\UnityLockfile
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
-        label: UnityTempFile-002834ab55b2bf947bf92395d462e07f
+      - path: DungeonChef\Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
+        label: UnityTempFile-0fedce539e5499d40982995c2d68b922
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3434,14 +2451,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
-          projectPath: Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
+          path: DungeonChef\Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
+          projectPath: Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
-        label: UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
+      - path: DungeonChef\Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
+        label: UnityTempFile-2af0112f3b85e434ab84fe710cac6180
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3452,14 +2469,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
-          projectPath: Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
+          path: DungeonChef\Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
+          projectPath: Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
-        label: UnityTempFile-1052d21765d736b4da17233e5eff348d
+      - path: DungeonChef\Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
+        label: UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3470,14 +2487,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
-          projectPath: Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
+          path: DungeonChef\Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
+          projectPath: Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
-        label: UnityTempFile-20ac606474508544b8b47ce12db6dd13
+      - path: DungeonChef\Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
+        label: UnityTempFile-4775b60d069318146a707edfb09966ac
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3488,14 +2505,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
-          projectPath: Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
+          path: DungeonChef\Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
+          projectPath: Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
-        label: UnityTempFile-24c2045d9b53ee942925fa55329ec096
+      - path: DungeonChef\Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
+        label: UnityTempFile-5ea0187c72b90274db014581774ab906
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3506,14 +2523,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
-          projectPath: Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
+          path: DungeonChef\Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
+          projectPath: Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
-        label: UnityTempFile-277a376357c67a040a0ddf78d9f7d505
+      - path: DungeonChef\Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
+        label: UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3524,14 +2541,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
-          projectPath: Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
+          path: DungeonChef\Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
+          projectPath: Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
-        label: UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
+      - path: DungeonChef\Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
+        label: UnityTempFile-a11a4611646dcb248803714cb9d944b2
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3542,14 +2559,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
-          projectPath: Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
+          path: DungeonChef\Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
+          projectPath: Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-        label: UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
+      - path: DungeonChef\Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
+        label: UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
         level: 2
         isFolder: 0
         isContainer: 0
@@ -3560,117 +2577,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-          projectPath: Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-        label: UnityTempFile-69f1d668e61b8744c94993f7ff761802
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-          projectPath: Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-        label: UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-          projectPath: Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-        label: UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-          projectPath: Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-        label: UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-          projectPath: Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-        label: UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-          projectPath: Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: DungeonChef\Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-        label: UnityTempFile-fa82ef8a77786d14ca679292001584aa
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: DungeonChef\Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-          fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-          projectPath: Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
+          path: DungeonChef\Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
+          fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
+          projectPath: Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -3694,615 +2603,399 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: DungeonChef\.vs\DungeonChef\v15\.suo
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\.suo
-      projectPath: .vs\DungeonChef\v15\.suo
+    - path: DungeonChef\Assets\Materials.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\db.lock
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\db.lock
-      projectPath: .vs\DungeonChef\v15\Server\sqlite3\db.lock
+    - path: DungeonChef\Assets\Meshs.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs.meta
+      projectPath: Assets\Meshs.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide
-      projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide
+    - path: DungeonChef\Assets\Meshs\G_Tile_01.fbx
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Tile_01.fbx
+      projectPath: Assets\Meshs\G_Tile_01.fbx
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
-      projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide-shm
+    - path: DungeonChef\Assets\Meshs\G_Tile_01.fbx.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Tile_01.fbx.meta
+      projectPath: Assets\Meshs\G_Tile_01.fbx.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\.vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
-      projectPath: .vs\DungeonChef\v15\Server\sqlite3\storage.ide-wal
+    - path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx
+      projectPath: Assets\Meshs\G_TileCharacter_01.fbx
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Assembly-CSharp.csproj
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assembly-CSharp.csproj
-      projectPath: Assembly-CSharp.csproj
+    - path: DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_TileCharacter_01.fbx.meta
+      projectPath: Assets\Meshs\G_TileCharacter_01.fbx.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    - path: DungeonChef\Assets\Meshs\G_Walls_01.fbx
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Walls_01.fbx
+      projectPath: Assets\Meshs\G_Walls_01.fbx
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Assets\Scenes\UIScene.unity
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scenes\UIScene.unity
-      projectPath: Assets\Scenes\UIScene.unity
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scenes\UIScene.unity.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scenes\UIScene.unity.meta
-      projectPath: Assets\Scenes\UIScene.unity.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts.meta
-      projectPath: Assets\Scripts.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\BasicLayout.png
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\BasicLayout.png
-      projectPath: Assets\Scripts\BasicLayout.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\BasicLayout.png.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\BasicLayout.png.meta
-      projectPath: Assets\Scripts\BasicLayout.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Effect.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Effect.cs
-      projectPath: Assets\Scripts\Effect.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Effect.cs.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Effect.cs.meta
-      projectPath: Assets\Scripts\Effect.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Ingredient.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Ingredient.cs
-      projectPath: Assets\Scripts\Ingredient.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Ingredient.cs.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Ingredient.cs.meta
-      projectPath: Assets\Scripts\Ingredient.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\InventoryItem.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\InventoryItem.cs
-      projectPath: Assets\Scripts\InventoryItem.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\InventoryItem.cs.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\InventoryItem.cs.meta
-      projectPath: Assets\Scripts\InventoryItem.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\ItemDragHandler.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\ItemDragHandler.cs
-      projectPath: Assets\Scripts\ItemDragHandler.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\ItemDragHandler.cs.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\ItemDragHandler.cs.meta
-      projectPath: Assets\Scripts\ItemDragHandler.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Recipe.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Recipe.cs
-      projectPath: Assets\Scripts\Recipe.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Scripts\Recipe.cs.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Scripts\Recipe.cs.meta
-      projectPath: Assets\Scripts\Recipe.cs.meta
+    - path: DungeonChef\Assets\Meshs\G_Walls_01.fbx.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Meshs\G_Walls_01.fbx.meta
+      projectPath: Assets\Meshs\G_Walls_01.fbx.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Assets\Textures.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Textures.meta
       projectPath: Assets\Textures.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Assets\Textures\UI.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI.meta
-      projectPath: Assets\Textures\UI.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Textures\UI\InventoryTile.png
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI\InventoryTile.png
-      projectPath: Assets\Textures\UI\InventoryTile.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Assets\Textures\UI\InventoryTile.png.meta
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Assets\Textures\UI\InventoryTile.png.meta
-      projectPath: Assets\Textures\UI\InventoryTile.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\DungeonChef.sln
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\DungeonChef.sln
-      projectPath: DungeonChef.sln
+    - path: DungeonChef\Assets\VFX.meta
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\VFX.meta
+      projectPath: Assets\VFX.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Library\assetDatabase3
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\assetDatabase3
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\assetDatabase3
       projectPath: Library\assetDatabase3
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: DungeonChef\Library\EditorInstance.json
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\EditorInstance.json
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\EditorInstance.json
       projectPath: Library\EditorInstance.json
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\EditorUserBuildSettings.asset
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\EditorUserBuildSettings.asset
-      projectPath: Library\EditorUserBuildSettings.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
     - path: DungeonChef\Library\gfu\cache\gitlocks.yaml
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gitlocks.yaml
       projectPath: Library\gfu\cache\gitlocks.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: DungeonChef\Library\gfu\cache\gitstatusentries.yaml
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gitstatusentries.yaml
       projectPath: Library\gfu\cache\gitstatusentries.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
       projectPath: Library\gfu\cache\gittrackingstatus.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: DungeonChef\Library\gfu\cache\repoinfo.yaml
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\repoinfo.yaml
       projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
-      projectPath: Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba
+    - path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1
+      projectPath: Library\metadata\10\10639903c36855f4490470bcdb4178b1
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
-      projectPath: Library\metadata\03\030b64929d1ac2d4aa1e174a496cf1ba.info
+    - path: DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
+      projectPath: Library\metadata\10\10639903c36855f4490470bcdb4178b1.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
-      projectPath: Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7
+    - path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad
+      projectPath: Library\metadata\54\54f11e38226643048b8a581df74dddad
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
-      projectPath: Library\metadata\07\072b0971ee89bf94992ac5d096cac0a7.info
+    - path: DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\54\54f11e38226643048b8a581df74dddad.info
+      projectPath: Library\metadata\54\54f11e38226643048b8a581df74dddad.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-      projectPath: Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
+    - path: DungeonChef\Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+      projectPath: Library\metadata\62\62772aad98ed04f0d955b7d20de61f7f
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
+      projectPath: Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
-      projectPath: Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4.info
+    - path: DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
+      projectPath: Library\metadata\85\85b684e46b0bfe34488cb6876ebbf1ec.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
-      projectPath: Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1
+    - path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
+      projectPath: Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
-      projectPath: Library\metadata\2c\2c2642ff0ad3d8e4ca48a8ec47fccbb1.info
+    - path: DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
+      projectPath: Library\metadata\8d\8d6e90132c9a9a24ca27a4028ca68bde.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
-      projectPath: Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e
+    - path: DungeonChef\Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+      projectPath: Library\metadata\90\90791303b72ec4ae198f99d637dfdf6c
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1
+      projectPath: Library\metadata\96\961511876f3e1ed448698dfb08210db1
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
-      projectPath: Library\metadata\47\47c3cf4f0af8b73479db75f011f9cd4e.info
+    - path: DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
+      projectPath: Library\metadata\96\961511876f3e1ed448698dfb08210db1.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
-      projectPath: Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b
+    - path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99
+      projectPath: Library\metadata\a3\a3f75341d15df6646b825c593807ef99
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
-      projectPath: Library\metadata\8c\8ca099d9fb5dd4340b62ab0eb17bde1b.info
+    - path: DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
+      projectPath: Library\metadata\a3\a3f75341d15df6646b825c593807ef99.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-      projectPath: Library\metadata\95\95ce78993fbfa644a848aa67ff819069
+    - path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
+      projectPath: Library\metadata\c2\c29dba896c18e7b498e36148ece925d5
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-      projectPath: Library\metadata\95\95ce78993fbfa644a848aa67ff819069.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-      projectPath: Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-      projectPath: Library\metadata\ac\acfe06c87f12b9b47a403d2cd6dee8b1.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-      projectPath: Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-      projectPath: Library\metadata\be\bece0b3fa9643894db93b7ea01ccd7f7.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-      projectPath: Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-      projectPath: Library\metadata\c2\c20e8f1129214e4469f8f2b69d5b55ef.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-      projectPath: Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-      projectPath: Library\metadata\c8\c8bcae7cc36f7cc4aa3ffa1801c96dc0.info
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    - path: DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
+      projectPath: Library\metadata\c2\c29dba896c18e7b498e36148ece925d5.info
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
       projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
       projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
       projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
       projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.dll
       projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
     - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
       projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
       projectPath: Library\ShaderCache\0\06e8a8b7653a71bbff5ba0e0d32b4485.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
-      projectPath: Library\ShaderCache\6\63793b4b96ef36203b8d8a7254cb0b0a.bin
+    - path: DungeonChef\Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
+      projectPath: Library\ShaderCache\2\262f85d052883249b31769db2c544b41.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
-      projectPath: Library\ShaderCache\6\6c64b0a2ffcf3c05b650d28864f294f2.bin
+    - path: DungeonChef\Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
+      projectPath: Library\ShaderCache\3\3b79803cd3568cd5b47496befe53e116.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
-      projectPath: Library\ShaderCache\7\718d6d4e28ccd5a7c4590632b29a5330.bin
+    - path: DungeonChef\Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+      projectPath: Library\ShaderCache\3\3fa8086c4db65c5aa5035ba87fd56952.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: DungeonChef\Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
+      projectPath: Library\ShaderCache\4\4292a86478164c0fbbcf803b2f9282d7.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
       projectPath: Library\ShaderCache\7\7c0327b0ca1536bbbc37e1e4d72a9e95.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
-      projectPath: Library\ShaderCache\7\7c55024901f570ea139064159b86fef4.bin
+    - path: DungeonChef\Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
+      projectPath: Library\ShaderCache\b\b8dfab945a2ec1856cf7d3ffa1a948a1.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-      projectPath: Library\ShaderCache\8\8954d6415974260457e3bbce81663222.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
-      projectPath: Library\ShaderCache\8\8b6a38aca9263fcd0f874d732768b38c.bin
+    - path: DungeonChef\Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
+      projectPath: Library\ShaderCache\e\e3fe1503f0367286bf8798a5068d96bf.bin
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
       projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: DungeonChef\Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-      projectPath: Library\StateCache\Hierarchy\f2ce7a-mainStage.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: DungeonChef\Library\StateCache\SceneView\ec53bc-mainStage.json
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Library\StateCache\SceneView\ec53bc-mainStage.json
-      projectPath: Library\StateCache\SceneView\ec53bc-mainStage.json
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: DungeonChef\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-      projectPath: obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-      projectPath: obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-      projectPath: obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
       projectPath: Temp\ProcessJobs\1f068db059d5cf0261a3b566803bc6c6.bakert
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
       projectPath: Temp\ProcessJobs\bcc7e87fb67d4a4877299dc907268347.bakert
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: DungeonChef\Temp\UnityLockfile
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityLockfile
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityLockfile
       projectPath: Temp\UnityLockfile
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
-      projectPath: Temp\UnityTempFile-002834ab55b2bf947bf92395d462e07f
+    - path: DungeonChef\Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
+      projectPath: Temp\UnityTempFile-0fedce539e5499d40982995c2d68b922
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
-      projectPath: Temp\UnityTempFile-0997b4d5f68346848a1095d65fc3cbe3
+    - path: DungeonChef\Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
+      projectPath: Temp\UnityTempFile-2af0112f3b85e434ab84fe710cac6180
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
-      projectPath: Temp\UnityTempFile-1052d21765d736b4da17233e5eff348d
+    - path: DungeonChef\Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
+      projectPath: Temp\UnityTempFile-3371e498e2ac02d4cbb70d1ce7d704ba
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
-      projectPath: Temp\UnityTempFile-20ac606474508544b8b47ce12db6dd13
+    - path: DungeonChef\Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
+      projectPath: Temp\UnityTempFile-4775b60d069318146a707edfb09966ac
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
-      projectPath: Temp\UnityTempFile-24c2045d9b53ee942925fa55329ec096
+    - path: DungeonChef\Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
+      projectPath: Temp\UnityTempFile-5ea0187c72b90274db014581774ab906
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
-      projectPath: Temp\UnityTempFile-277a376357c67a040a0ddf78d9f7d505
+    - path: DungeonChef\Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
+      projectPath: Temp\UnityTempFile-61c9d35b5ce43b74d87e5d78425a6076
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
-      projectPath: Temp\UnityTempFile-561e6b8c22890bf4e8ca0f5876544425
+    - path: DungeonChef\Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
+      projectPath: Temp\UnityTempFile-a11a4611646dcb248803714cb9d944b2
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
-      projectPath: Temp\UnityTempFile-5bbacdc08f782b04f8756b5eca317d6c
+    - path: DungeonChef\Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
+      fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
+      projectPath: Temp\UnityTempFile-aa0900738a5f4b94eb26810a724a3ef6
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-      projectPath: Temp\UnityTempFile-69f1d668e61b8744c94993f7ff761802
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-      projectPath: Temp\UnityTempFile-7e1569893e36b6447bade8d6a3f1a524
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-      projectPath: Temp\UnityTempFile-8f77d88b647a2d04ca89edcc84894981
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-      projectPath: Temp\UnityTempFile-c4711f8e5373bea4da59a0efc2a30e61
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-      projectPath: Temp\UnityTempFile-cca153a67d98a8d47a2114786e0c145a
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: DungeonChef\Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-      fullPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef\Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-      projectPath: Temp\UnityTempFile-fa82ef8a77786d14ca679292001584aa
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 100 changed files
+    changedFilesText: 64 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-07-27T15:21:08.651+10:00
+      updatedTimeString: 2019-07-27T17:35:18.015+10:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2019-07-27T17:57:50.213+10:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2019-07-27T17:54:36.174+10:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -23755,13 +22448,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2019-07-27T15:21:08.651+10:00
+    updatedTimeString: 2019-07-27T15:02:02.548+10:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2019-07-27T15:21:11.565+10:00
+    updatedTimeString: 2019-07-27T15:02:03.350+10:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-07-27T15:24:39.249+10:00
+    updatedTimeString: 2019-07-27T15:06:14.135+10:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -23781,11 +22474,37 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
   connections: []
   primaryConnectionUsername: 
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 315
+    y: 81
+    width: 924
+    height: 535
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23807,9 +22526,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 629
-    width: 1233
-    height: 341
+    y: 737
+    width: 1587
+    height: 263
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -23823,20 +22542,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Textures
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\s171872\Desktop\DungeonChef\DungeonChef
+  m_LastProjectPath: C:\JBGKS1\DungeonChef\DungeonChef
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea270000
-    m_LastClickedID: 10218
-    m_ExpandedIDs: 00000000a42600000c280000102c000000ca9a3b
+    m_SelectedIDs: 2c2f0000
+    m_LastClickedID: 12076
+    m_ExpandedIDs: 000000009a2b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -23864,7 +22583,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4260000
+    m_ExpandedIDs: 000000009a2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -23919,7 +22638,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23940,10 +22659,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1235
+    x: 1589
     y: 73
-    width: 443
-    height: 897
+    width: 329
+    height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -23954,7 +22673,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23977,15 +22696,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 305
-    height: 536
+    width: 229
+    height: 644
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0ec8fffff0e2ffff0ee3ffff38e3ffff40e5ffff5ce5ffff78e5ffff9ae5ffffd6e5ffff02eaffff4eeeffffbafbffff12290000
+      m_SelectedIDs: 4cf3ffff
+      m_LastClickedID: -3252
+      m_ExpandedIDs: ccfbffffd6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -24001,7 +22720,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -24009,7 +22728,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: f2ce7affba7f42e488eb6f4d184703ae
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24030,20 +22749,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307
+    x: 231
     y: 73
-    width: 924
-    height: 536
+    width: 1354
+    height: 644
   m_PersistentViewDataDictionary: {fileID: 0}
   m_WindowGUID: ec53bccdc9693ce4d8acdbc2f2e0f616
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 471.32947, y: 349.09592, z: 240.77269}
+    m_Target: {x: -5.261158, y: 3.0450387, z: -3.241216}
     speed: 2
-    m_Value: {x: 471.32947, y: 349.09592, z: 240.77269}
+    m_Value: {x: -5.261158, y: 3.0450387, z: -3.241216}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -24052,7 +22771,7 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_SceneViewState:
     showFog: 1
-    showMaterialUpdate: 0
+    showMaterialUpdate: 1
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
@@ -24063,33 +22782,33 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
-      speed: 2
-      m_Value: 0
-    zGrid:
       m_Target: 1
       speed: 2
       m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: -1}
+    m_Target: {x: 0.0006824456, y: 0.9972304, z: -0.07373921, w: 0.009275133}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: -1}
+    m_Value: {x: 0.00068244815, y: 0.99723417, z: -0.073739484, w: 0.009275167}
   m_Size:
-    m_Target: 782.9853
+    m_Target: 4.1441083
     speed: 2
-    m_Value: 782.9853
+    m_Value: 4.1441083
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.24042243, y: 0.2961808, z: -0.07730493, w: -0.9211395}
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24110,10 +22829,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 307
+    x: 227
     y: 73
-    width: 924
-    height: 536
+    width: 1357
+    height: 553
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
@@ -24125,10 +22844,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -462
-    m_HBaseRangeMax: 462
-    m_VBaseRangeMin: -259.5
-    m_VBaseRangeMax: 259.5
+    m_HBaseRangeMin: -678.5
+    m_HBaseRangeMax: 678.5
+    m_VBaseRangeMin: -268
+    m_VBaseRangeMax: 268
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -24146,30 +22865,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 924
-      height: 519
+      width: 1357
+      height: 536
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 462, y: 259.5}
+    m_Translation: {x: 678.5, y: 268}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -462
-      y: -259.5
-      width: 924
-      height: 519
+      x: -678.5
+      y: -268
+      width: 1357
+      height: 536
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 924, y: 536}
+  m_LastWindowPixelSize: {x: 1357, y: 553}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24190,8 +22909,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 629
+    x: 8
+    y: 636
     width: 1233
-    height: 341
+    height: 342
   m_PersistentViewDataDictionary: {fileID: 0}
