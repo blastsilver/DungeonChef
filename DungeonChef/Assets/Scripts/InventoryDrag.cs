@@ -21,7 +21,7 @@ public class InventoryDrag : MonoBehaviour
     }
 
 
-    public static bool Enabled { set { g_image.enabled = value; } }
+    public static bool Enabled { get { return g_image.enabled; } set { g_image.enabled = value; } }
     public static Sprite Sprite { set { g_image.sprite = value; } }
     public static Vector3 Position { set { g_transform.position = value; } }
     public static Vector3 LocalPosition { set { g_transform.localPosition = value; } }

@@ -6,7 +6,10 @@ namespace DungeonChef
     [CreateAssetMenu(fileName = "New Ingredient", menuName = "DungeonChef/Ingredient")]
     public class Ingredient : ScriptableObject
     {
-        public Effect effect;
-        public Sprite sprite;
+        [HideInInspector]
+        public int    ID;
+        [HideInInspector]
+        public Effect Effect;
+        public Sprite Sprite;
     }
 }
