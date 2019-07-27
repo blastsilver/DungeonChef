@@ -8,13 +8,14 @@ namespace DungeonChef
     public class Inventory : MonoBehaviour
     {
         // variables
-        List<Item>    items = new List<Item>();
         public int    totalSpace = 8;
         public Action OnInventoryItemChange;
+        public int             m_count = 0;
+        InventorySlot[] m_slots = null;
 
-        void Start()
+        void Awake()
         {
-
+            m_slots = GetComponentsInChildren<InventorySlot>();
         }
 
         // Update is called once per frame
@@ -25,19 +26,26 @@ namespace DungeonChef
 
         public bool AddItem(Item item)
         {
-            if (items.Count < totalSpace)
+            if (m_count < totalSpace)
             {
-                items.Add(item);
-                OnInventoryItemChange?.Invoke();
-                return true;
+                for (int i = 0; i < m_slots.Length; i++)
+                {
+                    if (m_slots[i].Item == null)
+                    {
+                        m_count++;
+                        //if (i == m_count) m_count++;
+                        m_slots[i].Insert(item);
+                        return true;
+                    }
+                }
             }
             return false;
         }
         public bool RemoveItem(Item item)
         {
-            if (items.Remove(item))
+            if (m_count > 0)
             {
-                OnInventoryItemChange?.Invoke();
+                m_count--;
                 return true;
             }
             return false;

@@ -8,8 +8,9 @@ namespace DungeonChef
     public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler
     {
         Item                  m_item;
+        Inventory             m_inventory;
+        UnityEngine.UI.Image  m_uiImage;
         UnityEngine.UI.Button m_uiButton;
-        
 
         public Item Item { get { return m_item; } set { Insert(value); } }
         public bool IsActive { get { return m_uiButton.interactable; } set { m_uiButton.interactable = value; } }
@@ -17,6 +18,11 @@ namespace DungeonChef
 
         void Start()
         {
+            m_inventory = GetComponentInParent<Inventory>();
+
+            m_uiImage = GetComponent<UnityEngine.UI.Image>();
+            m_uiImage.sprite = null;
+
             m_uiButton = GetComponent<UnityEngine.UI.Button>();
             m_uiButton.interactable = false;
         }
@@ -34,9 +40,10 @@ namespace DungeonChef
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.tag == "Cauldron" && GetComponent<Cauldron>().Insert(this))
+                if (hit.transform.tag == "Cauldron" && hit.transform.GetComponent<Cauldron>().Insert(this))
                 {
                     Remove();
+                    DisableDragNDrop();
                     Debug.Log("Drop here & update inventory");
 
                     return true;
@@ -58,10 +65,22 @@ namespace DungeonChef
             InventoryDrag.LocalPosition = Vector3.zero;
         }
 
+        public void Remove()
+        {
+            m_item = null;
+            IsActive = false;
+            m_uiImage.color = new Color(0, 0, 0, 0);
+            m_uiImage.sprite = null;
+            m_inventory.RemoveItem(Item);
+        }
 
-
-        public void Remove() { m_item = null; IsActive = false; }
-        public void Insert(Item item) { m_item = item; IsActive = true; }
+        public void Insert(Item item)
+        {
+            m_item = item;
+            IsActive = true;
+            m_uiImage.color = Color.white;
+            m_uiImage.sprite = m_item.Sprite;
+        }
         public void OnDrag(PointerEventData e)
         {
             if (IsDragging)

@@ -905,7 +905,7 @@ GameObject:
   - component: {fileID: 744733766}
   - component: {fileID: 744733770}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Cauldron
   m_TagString: Cauldron
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -996,7 +996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08fa87997a57fd41b183af5ddcb9ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RecipeBook: {fileID: 11400000, guid: 63f938f5e5a55ef41ba90fe09bba8f99, type: 2}
+  Inventory: {fileID: 1752035226}
+  RecipeBook: {fileID: 11400000, guid: 07a8be0947098ee42897c0112bd5b637, type: 2}
 --- !u!1001 &933690970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1655,6 +1656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalSpace: 8
+  m_count: 0
 --- !u!1 &2009326292
 GameObject:
   m_ObjectHideFlags: 0

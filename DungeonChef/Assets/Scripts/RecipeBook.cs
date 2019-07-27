@@ -7,9 +7,8 @@ namespace DungeonChef
     [CreateAssetMenu(fileName = "New Recipe Book", menuName = "DungeonChef/Recipe Book")]
     public class RecipeBook : ScriptableObject
     {
-        public List<Ingredient> Ingredients = new List<Ingredient>();
-        [HideInInspector]
         public List<Recipe> Recipies = new List<Recipe>();
+        public List<Ingredient> Ingredients = new List<Ingredient>();
 
         public Recipe Search(Ingredient i1, Ingredient i2, Ingredient i3)
         {
