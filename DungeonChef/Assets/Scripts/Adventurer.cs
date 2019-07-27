@@ -12,8 +12,8 @@ namespace DungeonChef
         {
             if (slot.Item.IsRecipe)
             {
-                health += Random.Range(-5.0f, 3.0f);
-                if (health < 0) Destroy(transform.parent.gameObject, 0);
+                health += Random.Range(-5.0f, 5.0f);
+                if (health < 0) Destroy(gameObject, 0);
                 return true;
             }
             return false;

@@ -43,10 +43,10 @@ namespace DungeonChef
 
         }
 
-        Item CreateRecipeItem() { return CreateRecipeItem(Random.Range(0, this.RecipeBook.Recipies.Count)); }
         Item CreateRecipeItem(int i) { return new Item(RecipeBook.Recipies[i]); }
-        Item CreateIngredientItem() { return CreateIngredientItem(Random.Range(0, this.RecipeBook.Ingredients.Count)); }
         Item CreateIngredientItem(int i) { return new Item(RecipeBook.Ingredients[i]); }
+        public Item CreateRecipeItem() { return CreateRecipeItem(Random.Range(0, this.RecipeBook.Recipies.Count)); }
+        public Item CreateIngredientItem() { return CreateIngredientItem(Random.Range(0, this.RecipeBook.Ingredients.Count)); }
 
         public bool Insert(InventorySlot slot)
         {
