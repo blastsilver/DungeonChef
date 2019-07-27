@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e974f2dc33b539a44b428e7cfcf8eab7, type: 3}
-  m_Name: TempB1
+  m_Name: RecipieBook_01
   m_EditorClassIdentifier: 
   Recipies:
   - {fileID: 11400000, guid: 26e218d0ede41b043812d411fa2af9f4, type: 2}
+  - {fileID: 11400000, guid: 29595c65e6232e84f9f3f72c741e49a7, type: 2}
+  - {fileID: 11400000, guid: 8e44621aef0687c448ef0358367b0099, type: 2}
   Ingredients:
   - {fileID: 11400000, guid: a55adce1c9bb58f4ba4a63c857eb0582, type: 2}
   - {fileID: 11400000, guid: 563bd74ce90608a4d92c1022b399163a, type: 2}

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: TempR3
   m_EditorClassIdentifier: 
   ID: 0
-  Sprite: {fileID: 0}
+  Effect: 0
+  Sprite: {fileID: 21300010, guid: eb427336b9c09764b91af7b26f9e66d1, type: 3}
   Ingredient1: {fileID: 0}
   Ingredient2: {fileID: 0}
   Ingredient3: {fileID: 0}

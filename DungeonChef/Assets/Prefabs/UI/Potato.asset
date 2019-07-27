@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95ce78993fbfa644a848aa67ff819069, type: 3}
-  m_Name: TempR2
+  m_Script: {fileID: 11500000, guid: 107fe65136f33aa408cb294dd4ddc3e4, type: 3}
+  m_Name: Potato
   m_EditorClassIdentifier: 
   ID: 0
   Effect: 0
-  Sprite: {fileID: 21300008, guid: eb427336b9c09764b91af7b26f9e66d1, type: 3}
-  Ingredient1: {fileID: 0}
-  Ingredient2: {fileID: 0}
-  Ingredient3: {fileID: 0}
+  Sprite: {fileID: 0}
