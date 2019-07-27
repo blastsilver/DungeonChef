@@ -3,31 +3,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+namespace DungeonChef
 {
-    public int    totalSpace = 8;
-    public Action OnInventoryItemChange;
-    List<InventoryItem> items = new List<InventoryItem>();
-    
-    void Start()
+    public class Inventory : MonoBehaviour
     {
-        
-    }
+        // variables
+        List<Item>    items = new List<Item>();
+        public int    totalSpace = 8;
+        public Action OnInventoryItemChange;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+        void Start()
+        {
 
-    public void AddItem(InventoryItem item)
-    {
-        items.Add(item);
-        OnInventoryItemChange?.Invoke();
-    }
-    public void RemoveItem(InventoryItem item)
-    {
-        items.Remove(item);
-        OnInventoryItemChange?.Invoke();
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+
+        public bool AddItem(Item item)
+        {
+            if (items.Count < totalSpace)
+            {
+                items.Add(item);
+                OnInventoryItemChange?.Invoke();
+                return true;
+            }
+            return false;
+        }
+        public bool RemoveItem(Item item)
+        {
+            if (items.Remove(item))
+            {
+                OnInventoryItemChange?.Invoke();
+                return true;
+            }
+            return false;
+        }
     }
 }

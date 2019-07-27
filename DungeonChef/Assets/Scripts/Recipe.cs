@@ -3,12 +3,17 @@ using System.Collections;
 
 namespace DungeonChef
 {
-    public class Recipe
+    [CreateAssetMenu(fileName = "New Recipe", menuName = "DungeonChef/Recipe")]
+    public class Recipe : ScriptableObject
     {
-        public int        id;
-        public Sprite     sprite;
-        public Ingredient ingredient1;
-        public Ingredient ingredient2;
-        public Ingredient ingredient3;
+        [HideInInspector]
+        public int        ID;
+        public Sprite     Sprite;
+        [HideInInspector]
+        public Ingredient Ingredient1;
+        [HideInInspector]
+        public Ingredient Ingredient2;
+        [HideInInspector]
+        public Ingredient Ingredient3;
     }
 }
