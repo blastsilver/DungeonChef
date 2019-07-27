@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 103
+  controlID: 10
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 104
+  controlID: 11
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 105
+  controlID: 12
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2989,7 +2989,7 @@ MonoBehaviour:
       workTreeStatus: 1
     changedFilesText: 64 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2019-07-27T17:35:18.015+10:00
+      updatedTimeString: 2019-07-27T18:05:04.347+10:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -22542,20 +22542,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\JBGKS1\DungeonChef\DungeonChef
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c2f0000
-    m_LastClickedID: 12076
-    m_ExpandedIDs: 000000009a2b000000ca9a3b
+    scrollPos: {x: 0, y: 30}
+    m_SelectedIDs: e2300000
+    m_LastClickedID: 12514
+    m_ExpandedIDs: 00000000282c0000c22f0000e2300000fa32000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22583,7 +22583,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a2b0000
+    m_ExpandedIDs: 00000000282c0000e2300000fa320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -22637,7 +22637,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 184
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -22702,9 +22702,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4cf3ffff
-      m_LastClickedID: -3252
-      m_ExpandedIDs: ccfbffffd6fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2afaffff4efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -22720,7 +22720,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -22760,9 +22760,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.261158, y: 3.0450387, z: -3.241216}
+    m_Target: {x: -5.6270957, y: 3.0868137, z: -2.1775436}
     speed: 2
-    m_Value: {x: -5.261158, y: 3.0450387, z: -3.241216}
+    m_Value: {x: -5.6270957, y: 3.0868137, z: -2.1775436}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -22790,13 +22790,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.0006824456, y: 0.9972304, z: -0.07373921, w: 0.009275133}
+    m_Target: {x: -0.00020626534, y: 0.99883276, z: 0.0041844225, w: 0.048281815}
     speed: 2
-    m_Value: {x: 0.00068244815, y: 0.99723417, z: -0.073739484, w: 0.009275167}
+    m_Value: {x: -0.00020626374, y: 0.998825, z: 0.00418439, w: 0.048281442}
   m_Size:
-    m_Target: 4.1441083
+    m_Target: 3.027415
     speed: 2
-    m_Value: 4.1441083
+    m_Value: 3.027415
   m_Ortho:
     m_Target: 0
     speed: 2
