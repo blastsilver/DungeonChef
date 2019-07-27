@@ -40,14 +40,35 @@ namespace DungeonChef
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                if (hit.transform.tag == "Cauldron" && hit.transform.GetComponent<Cauldron>().Insert(this))
+                switch (hit.transform.tag)
                 {
-                    Remove();
-                    DisableDragNDrop();
-                    Debug.Log("Drop here & update inventory");
-
-                    return true;
+                    case "Cauldron":
+                        if (hit.transform.GetComponent<Cauldron>().Insert(this))
+                        {
+                            Remove();
+                            DisableDragNDrop();
+                            return true;
+                        }
+                        break;
+                    case "Adventurer":
+                        if (hit.transform.GetComponent<Adventurer>().Feed(this))
+                        {
+                            Remove();
+                            DisableDragNDrop();
+                            return true;
+                        }
+                        break;
                 }
+
+                //if (hit.transform.tag == "Cauldron" && hit.transform.GetComponent<Cauldron>().Insert(this))
+                //{
+                //    Remove();
+                //    DisableDragNDrop();
+                //    Debug.Log("Drop here & update inventory");
+
+                //    return true;
+                //}
+                //if (hit.transform.tag)
             }
 
             return false;

@@ -8,6 +8,7 @@ namespace DungeonChef
     {
         [HideInInspector]
         public int        ID;
+        public float      Effect;
         public Sprite     Sprite;
         [HideInInspector]
         public Ingredient Ingredient1;

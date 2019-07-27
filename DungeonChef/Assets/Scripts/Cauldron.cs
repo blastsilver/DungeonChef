@@ -23,6 +23,10 @@ namespace DungeonChef
             {
                 Inventory.AddItem(CreateIngredientItem());
             }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                Inventory.AddItem(CreateRecipeItem());
+            }
         }
 
         void CheckRecipe()
