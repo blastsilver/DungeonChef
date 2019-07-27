@@ -13,27 +13,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-27T20:02:06.753+10:00
-  initializedAtString: 2019-07-27T20:02:06.753+10:00
+  lastUpdatedAtString: 2019-07-27T21:13:41.744+10:00
+  initializedAtString: 2019-07-27T21:13:41.744+10:00
   entries:
-  - path: DungeonChef\Assembly-CSharp.csproj
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: DungeonChef\Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller
+    projectPath: Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    workTreeStatus: 5
+  - path: DungeonChef\Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller.meta
+    projectPath: Assets\Animations\Chef\AC_Chef_Idle_CTRL.controller.meta
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: DungeonChef\Assets\Animations\Chef\AN_Chef_Idle_01.anim
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\AN_Chef_Idle_01.anim
+    projectPath: Assets\Animations\Chef\AN_Chef_Idle_01.anim
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: DungeonChef\Assets\Animations\Chef\AN_Chef_Idle_01.anim.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\AN_Chef_Idle_01.anim.meta
+    projectPath: Assets\Animations\Chef\AN_Chef_Idle_01.anim.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: DungeonChef\Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller
+    projectPath: Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller.meta
+    projectPath: Assets\Animations\Chef\Idle\AC_Chef_Idle_CTRL.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim
+    projectPath: Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim.meta
+    projectPath: Assets\Animations\Chef\Idle\AN_Chef_Idle_01.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab
+    projectPath: Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab.meta
+    projectPath: Assets\Animations\Chef\Idle\F_Chef_Idle_01.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller
+    projectPath: Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller.meta
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller.meta
+    projectPath: Assets\Animations\Chef\Idle\T_Chef_Spritesheet_01_0.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: DungeonChef\Library\assetDatabase3
     fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: DungeonChef\Library\CrashedAssetImports.txt
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: DungeonChef\Library\EditorInstance.json
     fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -46,93 +112,87 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
-    projectPath: Library\metadata\10\107fe65136f33aa408cb294dd4ddc3e4
+  - path: DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\14\145ea56fd840271489f72c2f2e5af9df
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\14\145ea56fd840271489f72c2f2e5af9df
-    projectPath: Library\metadata\14\145ea56fd840271489f72c2f2e5af9df
+  - path: DungeonChef\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\27\2733696d5a335a740a9e3fd61a65aadd
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\27\2733696d5a335a740a9e3fd61a65aadd
-    projectPath: Library\metadata\27\2733696d5a335a740a9e3fd61a65aadd
+  - path: DungeonChef\Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab
+    projectPath: Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab.info
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab.info
+    projectPath: Library\metadata\a8\a84794b2906fa3644b0de0c986e495ab.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a
+    projectPath: Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a.info
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a.info
+    projectPath: Library\metadata\b8\b8154a1b095bd094ca5c276197c27c0a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1
+    projectPath: Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\2a\2acf9f74bb11c1e42b7b3de707525086
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\2a\2acf9f74bb11c1e42b7b3de707525086
-    projectPath: Library\metadata\2a\2acf9f74bb11c1e42b7b3de707525086
+  - path: DungeonChef\Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1.info
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1.info
+    projectPath: Library\metadata\ec\ecf801ae5b2f828468a4d67f3072cfb1.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\6b\6b0e25fe42ddc8d4c910b9fa5d4d79c4
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\6b\6b0e25fe42ddc8d4c910b9fa5d4d79c4
-    projectPath: Library\metadata\6b\6b0e25fe42ddc8d4c910b9fa5d4d79c4
+  - path: DungeonChef\Library\metadata\ff\ffed15d991aa6ca40bd8c7bb5ef62a73
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\ff\ffed15d991aa6ca40bd8c7bb5ef62a73
+    projectPath: Library\metadata\ff\ffed15d991aa6ca40bd8c7bb5ef62a73
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\95\95ce78993fbfa644a848aa67ff819069
-    projectPath: Library\metadata\95\95ce78993fbfa644a848aa67ff819069
+  - path: DungeonChef\Library\ShaderCache\6\617f63ba155ccd5edd465a96457e298b.bin
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\6\617f63ba155ccd5edd465a96457e298b.bin
+    projectPath: Library\ShaderCache\6\617f63ba155ccd5edd465a96457e298b.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\c0\c08fa87997a57fd41b183af5ddcb9ddc
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\c0\c08fa87997a57fd41b183af5ddcb9ddc
-    projectPath: Library\metadata\c0\c08fa87997a57fd41b183af5ddcb9ddc
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: DungeonChef\Library\ShaderCache\c\cc4a7bc047f84a4d50feae0634baced5.bin
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ShaderCache\c\cc4a7bc047f84a4d50feae0634baced5.bin
+    projectPath: Library\ShaderCache\c\cc4a7bc047f84a4d50feae0634baced5.bin
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\e4\e44db9dc30fc504499d1cbff9a671b92
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\e4\e44db9dc30fc504499d1cbff9a671b92
-    projectPath: Library\metadata\e4\e44db9dc30fc504499d1cbff9a671b92
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Library\metadata\e9\e974f2dc33b539a44b428e7cfcf8eab7
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\metadata\e9\e974f2dc33b539a44b428e7cfcf8eab7
-    projectPath: Library\metadata\e9\e974f2dc33b539a44b428e7cfcf8eab7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: DungeonChef\Temp\ProcessJobs\0a698a811bfaf386cf272302e20e92c7.bakert
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\ProcessJobs\0a698a811bfaf386cf272302e20e92c7.bakert
-    projectPath: Temp\ProcessJobs\0a698a811bfaf386cf272302e20e92c7.bakert
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: DungeonChef\Temp\UnityLockfile
     fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: DungeonChef\Temp\UnityTempFile-7e9274f82bb0006439f2a80290a8cfd7
-    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-7e9274f82bb0006439f2a80290a8cfd7
-    projectPath: Temp\UnityTempFile-7e9274f82bb0006439f2a80290a8cfd7
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: DungeonChef\Temp\UnityTempFile-fad2755b47dd47949aeb2459f1bb3fdc
+    fullPath: C:\JBGKS1\DungeonChef\DungeonChef\Temp\UnityTempFile-fad2755b47dd47949aeb2459f1bb3fdc
+    projectPath: Temp\UnityTempFile-fad2755b47dd47949aeb2459f1bb3fdc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
