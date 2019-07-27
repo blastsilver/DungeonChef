@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 namespace DungeonChef
 {
@@ -8,6 +10,9 @@ namespace DungeonChef
         Cauldron     m_cauldron;
         Inventory    m_inventory;
         Adventurer[] m_adventurers;
+        public int m_aliveAdventures;
+
+        public List<string> names = new List<string>();
 
         // Use this for initialization
         void Start()
@@ -15,14 +20,25 @@ namespace DungeonChef
             m_cauldron = FindObjectOfType<Cauldron>();
             m_inventory = FindObjectOfType<Inventory>();
             m_adventurers = FindObjectsOfType<Adventurer>();
+            m_aliveAdventures = m_adventurers.Length;
+
+            foreach (Adventurer a in m_adventurers) a.name = names[Random.Range(0, names.Count)];
         }
 
         // Update is called once per frame
         void Update()
         {
+            if (Input.GetKey(KeyCode.Escape))
+                Application.Quit();
+
             if (Input.GetKeyDown(KeyCode.KeypadEnter))
             {
                 NextRound();
+            }
+
+            if (m_aliveAdventures <= 0)
+            {
+                SceneManager.LoadScene(0);
             }
         }
 
@@ -38,6 +54,11 @@ namespace DungeonChef
             {
                 m_adventurers[i].health -= Random.Range(1, 3);
             }
+        }
+
+        public void KillAdventurer()
+        {
+            m_aliveAdventures--;
         }
     }
 }
