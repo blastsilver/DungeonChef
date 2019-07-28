@@ -1699,6 +1699,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6972af539522cdc439bafd8d4fb7c97f, type: 3}
+--- !u!198 &1249172286 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9156536572249635226, guid: 3d691b95e51614e48acc1558f340546d,
+    type: 3}
+  m_PrefabInstance: {fileID: 343158731}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1264109142 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5204862913916487912, guid: bf19d138704de8245a514816d87ff652,
@@ -2873,6 +2879,10 @@ PrefabInstance:
       propertyPath: Inventory
       value: 
       objectReference: {fileID: 1721898316}
+    - target: {fileID: 2062846058, guid: cffbfa5c88440644dabbe9648d86e527, type: 3}
+      propertyPath: IngredientAnimation
+      value: 
+      objectReference: {fileID: 1249172286}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cffbfa5c88440644dabbe9648d86e527, type: 3}
 --- !u!1001 &6670964156573780501

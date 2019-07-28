@@ -6,8 +6,10 @@ namespace DungeonChef
 {
     public class Cauldron : MonoBehaviour
     {
-        public Inventory    Inventory;
-        public RecipeBook   RecipeBook;
+        public Inventory      Inventory;
+        public RecipeBook     RecipeBook;
+        public Animator       RecipeAnimator;
+        public ParticleSystem IngredientAnimation;
         List<InventorySlot> m_slots = new List<InventorySlot>();
 
         void Start()
@@ -27,6 +29,10 @@ namespace DungeonChef
             {
                 Inventory.AddItem(CreateRecipeItem());
             }
+            if (IsClipPlaying("MealFinished"))
+            {
+                RecipeAnimator.SetBool("isMealFinished", false);
+            }
         }
 
         void CheckRecipe()
@@ -35,12 +41,14 @@ namespace DungeonChef
             {
                 Inventory.AddItem(CreateRecipeItem());
                 m_slots.Clear();
-            }
+                RecipeAnimator.SetBool("isMealFinished", true);
+
+            } else IngredientAnimation.Emit(100);
         }
 
-        void PlayAnimation()
+        bool IsClipPlaying(string name)
         {
-
+            return RecipeAnimator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
 
         Item CreateRecipeItem(int i) { return new Item(RecipeBook.Recipies[i]); }
