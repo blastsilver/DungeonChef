@@ -22,7 +22,11 @@ namespace DungeonChef
             m_adventurers = FindObjectsOfType<Adventurer>();
             m_aliveAdventures = m_adventurers.Length;
 
-            foreach (Adventurer a in m_adventurers) a.name = names[Random.Range(0, names.Count)];
+            foreach (Adventurer a in m_adventurers)
+            {
+                a.tagname = names[Random.Range(0, names.Count)];
+                a.UpdateText();
+            }
         }
 
         // Update is called once per frame
@@ -52,7 +56,7 @@ namespace DungeonChef
 
             for (int i = 0; i < m_adventurers.Length; i++)
             {
-                m_adventurers[i].health -= Random.Range(1, 3);
+                m_adventurers[i].Damage(Random.Range(0, 3));
             }
         }
 
