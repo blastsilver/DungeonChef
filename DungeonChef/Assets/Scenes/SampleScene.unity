@@ -2278,6 +2278,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf19d138704de8245a514816d87ff652, type: 3}
+--- !u!95 &1460081562 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5446228241875797986, guid: b0ddd9a66c5d6b042b5fd2be4ff062f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 159807566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1662994934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,6 +2963,10 @@ PrefabInstance:
       propertyPath: IngredientAnimation
       value: 
       objectReference: {fileID: 1249172286}
+    - target: {fileID: 2062846058, guid: cffbfa5c88440644dabbe9648d86e527, type: 3}
+      propertyPath: RecipeAnimator
+      value: 
+      objectReference: {fileID: 1460081562}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cffbfa5c88440644dabbe9648d86e527, type: 3}
 --- !u!1001 &6670964156573780501
