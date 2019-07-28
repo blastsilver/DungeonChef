@@ -76,9 +76,9 @@ namespace DungeonChef
 
             for (int i = 0; i < m_adventurers.Count; i++)
             {
-                if (Random.value > 0.5f)
-                    m_adventurers[i].AddItem(m_cauldron.CreateIngredientItem());
-                m_adventurers[i].Damage(Random.Range(0, 3));
+                if (Random.value > 0.5f) m_adventurers[i].AddItem(m_cauldron.CreateIngredientItem());
+                else m_adventurers[i].RemoveItem();
+                m_adventurers[i].NextRound();
             }
         }
 
