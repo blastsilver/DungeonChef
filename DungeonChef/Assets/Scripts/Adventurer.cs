@@ -132,9 +132,11 @@ namespace DungeonChef
 
         public void PlayDeath()
         {
-            delay = 2.0f;
+            delay = 3.0f;
             IsDead = true;
             DeathId = Random.Range(0, totalDeathAnimations);
+            m_text.color = new Color(0, 0, 0, 0);
+            //GetComponent<RoundManager>().KillAdventurer(this)
         }
 
         bool IsClipPlaying(string name)
