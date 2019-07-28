@@ -48,14 +48,17 @@ namespace DungeonChef
 
         public void NextRound()
         {
-            int amount = Random.Range(1, 3);
-            for (int i = 0; i < amount; i++)
-            {
-                m_inventory.AddItem(m_cauldron.CreateIngredientItem());
-            }
+            //int amount = Random.Range(1, 3);
+            //for (int i = 0; i < amount; i++)
+            //{
+
+            //    m_inventory.AddItem(m_cauldron.CreateIngredientItem());
+            //}
 
             for (int i = 0; i < m_adventurers.Length; i++)
             {
+                if (Random.value > 0.5f)
+                    m_adventurers[i].AddItem(m_cauldron.CreateIngredientItem());
                 m_adventurers[i].Damage(Random.Range(0, 3));
             }
         }
