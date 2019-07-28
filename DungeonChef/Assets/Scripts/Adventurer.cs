@@ -9,6 +9,7 @@ namespace DungeonChef
         public float          walkSpeed = 2.0f;
         public float          walkDelay = 8.0f;
         public Animator       animator = null;
+        public Animator       bloodAnimator = null;
         public SpriteRenderer itemRenderer = null;
         public string         tagname = "";
         public float          health = 10.0f;
@@ -25,6 +26,7 @@ namespace DungeonChef
         private bool IsHealthDown { get { return IsClipPlaying("HealthDown"); } set { animator.SetBool("isHealthDown", value); } }
         private bool IsWalkingLeft { get { return IsClipPlaying("WalkingLeft"); } set { animator.SetBool("isWalkingLeft", value); } }
         private bool IsWalkingRight { get { return IsClipPlaying("WalkingRight"); } set { animator.SetBool("isWalkingRight", value); } }
+        private bool IsOffscreenDeath { get { return IsClipPlaying("BloodSplash", bloodAnimator); } set { bloodAnimator.SetBool("isOffscreenDeath", value); } }
 
         void Start()
         {
@@ -37,6 +39,8 @@ namespace DungeonChef
 
         void Update()
         {
+            if (IsOffscreenDeath) IsOffscreenDeath = false;
+
             if (IsIdle)
             {
                 float ihealth = Mathf.Round(health);
@@ -74,7 +78,11 @@ namespace DungeonChef
                     {
                         IsWalkingLeft = true;
                     }
-                    else Kill();
+                    else
+                    {
+                        Kill();
+                        IsOffscreenDeath = true;
+                    }
                 }
             }
             else if (IsWalkingLeft && delay > 0.0f)
@@ -111,7 +119,12 @@ namespace DungeonChef
 
         bool IsClipPlaying(string name)
         {
-            return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
+            return IsClipPlaying(name, animator);
+        }
+
+        bool IsClipPlaying(string name, Animator anim)
+        {
+            return anim.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
 
         public bool Feed(InventorySlot slot)
