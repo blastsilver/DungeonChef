@@ -6,22 +6,25 @@ namespace DungeonChef
 {
     public class Adventurer : MonoBehaviour
     {
+        public float          walkSpeed = 2.0f;
+        public float          walkDelay = 8.0f;
         public Animator       animator = null;
         public SpriteRenderer itemRenderer = null;
         public string         tagname = "";
         public float          health = 10.0f;
         TextMesh              m_text;
         public Item           Item;
+        bool healthUpdated = false;
+        float delay = 0;
 
-        private int AnimationDeathId { get { return animator.GetInteger("DeathId"); } set { animator.SetInteger("DeathId", value); } }
-        private bool AnimationIsIdle { get { return animator.GetBool("isIdle"); } set { animator.SetBool("isIdle", value); } }
-        private bool AnimationIsHeal { get { return animator.GetBool("isHeal"); } set { animator.SetBool("isHeal", value); } }
-        private bool AnimationIsDead { get { return animator.GetBool("isDead"); } set { animator.SetBool("isDead", value); } }
-        private bool AnimationIsDamage { get { return animator.GetBool("isDamage"); } set { animator.SetBool("isDamage", value); } }
-        private bool AnimationIsSitting { get { return animator.GetBool("isSitting"); } set { animator.SetBool("isSitting", value); } }
-        private bool AnimationIsStanding { get { return animator.GetBool("isStanding"); } set { animator.SetBool("isStanding", value); } }
-        private bool AnimationIsWalkingLeft { get { return animator.GetBool("isWalkingLeft"); } set { animator.SetBool("isWalkingLeft", value); } }
-        private bool AnimationIsWalkingRight { get { return animator.GetBool("isWalkingRight"); } set { animator.SetBool("isWalkingRight", value); } }
+        private int  DeathId { get { return animator.GetInteger("DeathId"); } set { animator.SetInteger("DeathId", value); } }
+        private bool IsIdle { get { return IsClipPlaying("Idle"); } set { animator.SetBool("isIdle", value); } }
+        private bool IsSitting { get { return IsClipPlaying("Sitting"); } set { animator.SetBool("isSitting", value); } }
+        private bool IsStanding { get { return IsClipPlaying("Standing"); } set { animator.SetBool("isStanding", value); } }
+        private bool IsHealthUp { get { return IsClipPlaying("HealthUp"); } set { animator.SetBool("isHealthUp", value); } }
+        private bool IsHealthDown { get { return IsClipPlaying("HealthDown"); } set { animator.SetBool("isHealthDown", value); } }
+        private bool IsWalkingLeft { get { return IsClipPlaying("WalkingLeft"); } set { animator.SetBool("isWalkingLeft", value); } }
+        private bool IsWalkingRight { get { return IsClipPlaying("WalkingRight"); } set { animator.SetBool("isWalkingRight", value); } }
 
         void Start()
         {
@@ -29,44 +32,86 @@ namespace DungeonChef
             UpdateText();
             HideItem();
 
-            AnimationIsIdle = true;
+            IsIdle = true;
         }
 
         void Update()
         {
-            float ihealth = Mathf.Round(health);
+            if (IsIdle)
+            {
+                float ihealth = Mathf.Round(health);
 
-            if (ihealth <= 0)
-            {
-                Destroy(transform.parent.gameObject, 0);
-                FindObjectOfType<RoundManager>().KillAdventurer(this);
-            }
-            //m_text.text = tagname + "\n" + Mathf.Max(0, ihealth).ToString();
+                if (ihealth <= 0) Kill();
+                //m_text.text = tagname + "\n" + Mathf.Max(0, ihealth).ToString();
 
-            if (AnimationIsHeal)
+            }
+            else if (IsHealthUp) IsHealthUp = false;
+            else if (IsHealthDown) IsHealthDown = false;
+            else if (IsStanding)
             {
-                if (AnimationIsIdle)
+                HideItem();
+                IsStanding = false;
+                IsWalkingRight = true;
+                delay = walkDelay;
+            }
+            else if (IsWalkingRight)
+            {
+                if (healthUpdated) return;
+
+                Vector3 scale = transform.parent.localScale;
+                scale.x = -Mathf.Abs(scale.x);
+                transform.parent.localScale = scale;
+
+                delay -= Time.deltaTime;
+                transform.parent.position += Vector3.left * Time.deltaTime * walkSpeed;
+                if (delay <= 0.0f)
                 {
-                    AnimationIsIdle = false;
-                }
-                else
-                {
-                    AnimationIsIdle = true;
-                    AnimationIsHeal = false;
+                    delay = walkDelay;
+                    IsWalkingRight = false;
+                    healthUpdated = true;
+                    Damage(Random.Range(0, 3));
+                    if (health > 0.0f)
+                    {
+                        IsWalkingLeft = true;
+                    }
+                    else Kill();
                 }
             }
-            if (AnimationIsDamage)
+            else if (IsWalkingLeft && delay > 0.0f)
             {
-                if (AnimationIsIdle)
+                delay -= Time.deltaTime;
+
+                Vector3 scale = transform.parent.localScale;
+                scale.x = Mathf.Abs(scale.x);
+                transform.parent.localScale = scale;
+
+                transform.parent.position += Vector3.right * Time.deltaTime * walkSpeed;
+
+                if (delay <= 0.0f)
                 {
-                    AnimationIsIdle = false;
-                }
-                else
-                {
-                    AnimationIsIdle = true;
-                    AnimationIsDamage = false;
+                    delay = 0.0f;
+                    healthUpdated = false;
+                    IsWalkingLeft = false;
+                    IsSitting = true;
                 }
             }
+            else if (IsSitting)
+            {
+                IsSitting = false;
+                IsIdle = true;
+                if (Item != null) ShowItem();
+            }
+        }
+
+        void Kill()
+        {
+            Destroy(transform.parent.gameObject, 0);
+            FindObjectOfType<RoundManager>().KillAdventurer(this);
+        }
+
+        bool IsClipPlaying(string name)
+        {
+            return animator.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
 
         public bool Feed(InventorySlot slot)
@@ -76,7 +121,7 @@ namespace DungeonChef
                 float effect = Random.Range(-3.0f, 4.0f);
                 while (Mathf.Round(effect) == 0) effect = Random.Range(-3.0f, 4.0f);
 
-                if (effect > 0.0f) AnimationIsHeal = true; else AnimationIsDamage = true;
+                if (effect > 0.0f) IsHealthUp = true; else IsHealthDown = true;
 
                 health += effect;
                 UpdateText();
@@ -94,13 +139,12 @@ namespace DungeonChef
         public void AddItem(Item item)
         {
             Item = item;
-            itemRenderer.sprite = Item.Sprite;
-            ShowItem();
         }
 
         public void ShowItem()
         {
             itemRenderer.enabled = true;
+            itemRenderer.sprite = Item.Sprite;
         }
 
         public void HideItem()
@@ -119,6 +163,11 @@ namespace DungeonChef
             float ihealth = Mathf.Round(health);
             if (m_text != null)
                 m_text.text = tagname + "\n" + Mathf.Max(0, ihealth).ToString();
+        }
+
+        public void NextRound()
+        {
+            IsStanding = true;
         }
     }
 }
