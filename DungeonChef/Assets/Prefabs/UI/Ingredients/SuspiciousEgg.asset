@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 107fe65136f33aa408cb294dd4ddc3e4, type: 3}
-  m_Name: Potato
+  m_Name: SuspiciousEgg
   m_EditorClassIdentifier: 
   ID: 0
   Effect: 0
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300032, guid: eb427336b9c09764b91af7b26f9e66d1, type: 3}
