@@ -36,8 +36,8 @@ namespace DungeonChef
                 RecipeAnimator.SetBool("isMealFinished", false);
             }
 
-            if (IsClipPlaying("Saltbae", ChefArmsAnimator)) ChefArmsAnimator.SetBool("isMealFinished", false);
-            if (IsClipPlaying("Saltbae", ChefBodyAnimator)) ChefBodyAnimator.SetBool("isMealFinished", false);
+            if (IsClipPlaying("Saltbae", ChefArmsAnimator)) ChefArmsAnimator.SetBool("isCooking", false);
+            if (IsClipPlaying("Saltbae", ChefBodyAnimator)) ChefBodyAnimator.SetBool("isCooking", false);
         }
 
         void CheckRecipe()
