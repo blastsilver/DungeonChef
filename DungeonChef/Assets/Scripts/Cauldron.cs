@@ -9,6 +9,8 @@ namespace DungeonChef
         public Inventory      Inventory;
         public RecipeBook     RecipeBook;
         public Animator       RecipeAnimator;
+        public Animator       ChefArmsAnimator;
+        public Animator       ChefBodyAnimator;
         public ParticleSystem IngredientAnimation;
         List<InventorySlot> m_slots = new List<InventorySlot>();
 
@@ -33,6 +35,9 @@ namespace DungeonChef
             {
                 RecipeAnimator.SetBool("isMealFinished", false);
             }
+
+            if (IsClipPlaying("Saltbae", ChefArmsAnimator)) ChefArmsAnimator.SetBool("isMealFinished", false);
+            if (IsClipPlaying("Saltbae", ChefBodyAnimator)) ChefBodyAnimator.SetBool("isMealFinished", false);
         }
 
         void CheckRecipe()
@@ -44,11 +49,20 @@ namespace DungeonChef
                 RecipeAnimator.SetBool("isMealFinished", true);
 
             } else IngredientAnimation.Emit(100);
+
+
+            ChefArmsAnimator.SetBool("isCooking", true);
+            ChefBodyAnimator.SetBool("isCooking", true);
         }
 
         bool IsClipPlaying(string name)
         {
-            return RecipeAnimator.GetCurrentAnimatorStateInfo(0).IsName(name);
+            return IsClipPlaying(name, RecipeAnimator);
+        }
+
+        bool IsClipPlaying(string name, Animator anim)
+        {
+            return anim.GetCurrentAnimatorStateInfo(0).IsName(name);
         }
 
         Item CreateRecipeItem(int i) { return new Item(RecipeBook.Recipies[i]); }
