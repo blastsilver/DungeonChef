@@ -11,12 +11,13 @@ namespace DungeonChef
         public string         tagname = "";
         public float          health = 10.0f;
         TextMesh              m_text;
-        Item                  m_item;
+        public Item           Item;
 
         void Start()
         {
             m_text = GetComponentInChildren<TextMesh>();
             UpdateText();
+            HideItem();
         }
 
         void Update()
@@ -26,7 +27,7 @@ namespace DungeonChef
             if (ihealth <= 0)
             {
                 Destroy(transform.parent.gameObject, 0);
-                FindObjectOfType<RoundManager>().KillAdventurer();
+                FindObjectOfType<RoundManager>().KillAdventurer(this);
             }
             //m_text.text = tagname + "\n" + Mathf.Max(0, ihealth).ToString();
         }
@@ -50,8 +51,9 @@ namespace DungeonChef
 
         public void AddItem(Item item)
         {
-            m_item = item;
-            itemRenderer.sprite = m_item.Sprite;
+            Item = item;
+            itemRenderer.sprite = Item.Sprite;
+            ShowItem();
         }
 
         public void ShowItem()
@@ -62,6 +64,12 @@ namespace DungeonChef
         public void HideItem()
         {
             itemRenderer.enabled = false;
+        }
+
+        public void RemoveItem()
+        {
+            Item = null;
+            itemRenderer.sprite = null;
         }
 
         public void UpdateText()
