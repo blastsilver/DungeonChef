@@ -42,7 +42,7 @@ namespace DungeonChef
 
         void CheckRecipe()
         {
-            if (m_slots.Count == 3)
+            if (m_slots.Count == 2)
             {
                 Inventory.AddItem(CreateRecipeItem());
                 m_slots.Clear();

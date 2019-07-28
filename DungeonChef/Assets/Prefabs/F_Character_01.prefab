@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ebf2f4533a7b834eae01d0ad3840b55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  totalDeathAnimations: 2
+  totalDeathAnimations: 5
   walkSpeed: 2
   walkDelay: 4
   animator: {fileID: 4804694572420163266}
