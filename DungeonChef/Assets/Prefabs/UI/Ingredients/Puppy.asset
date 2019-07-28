@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   Effect: 0
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 21300048, guid: eb427336b9c09764b91af7b26f9e66d1, type: 3}
