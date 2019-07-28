@@ -40,6 +40,11 @@ namespace DungeonChef
                 NextRound();
             }
 
+            if (Input.GetKeyDown(KeyCode.Alpha3) && m_adventurers.Count > 0)
+            {
+                m_adventurers[0].PlayDeath();
+            }
+
             if (m_adventurers.Count <= 0)
             {
                 SceneManager.LoadScene(0);

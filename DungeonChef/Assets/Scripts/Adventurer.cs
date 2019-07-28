@@ -130,7 +130,7 @@ namespace DungeonChef
             FindObjectOfType<RoundManager>().KillAdventurer(this);
         }
 
-        void PlayDeath()
+        public void PlayDeath()
         {
             delay = 2.0f;
             IsDead = true;
