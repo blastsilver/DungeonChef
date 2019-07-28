@@ -6,6 +6,7 @@ namespace DungeonChef
 {
     public class Adventurer : MonoBehaviour
     {
+        public int            totalDeathAnimations = 2;
         public float          walkSpeed = 2.0f;
         public float          walkDelay = 8.0f;
         public Animator       animator = null;
@@ -20,6 +21,7 @@ namespace DungeonChef
 
         private int  DeathId { get { return animator.GetInteger("DeathId"); } set { animator.SetInteger("DeathId", value); } }
         private bool IsIdle { get { return IsClipPlaying("Idle"); } set { animator.SetBool("isIdle", value); } }
+        private bool IsDead { get { return IsDeathPlaying(); } set { animator.SetBool("isDead", value); } }
         private bool IsSitting { get { return IsClipPlaying("Sitting"); } set { animator.SetBool("isSitting", value); } }
         private bool IsStanding { get { return IsClipPlaying("Standing"); } set { animator.SetBool("isStanding", value); } }
         private bool IsHealthUp { get { return IsClipPlaying("HealthUp"); } set { animator.SetBool("isHealthUp", value); } }
@@ -41,11 +43,22 @@ namespace DungeonChef
         {
             if (IsOffscreenDeath) IsOffscreenDeath = false;
 
+            if (animator.GetBool("isDead"))
+            {
+                if (delay > 0.0f)
+                {
+                    delay -= Time.deltaTime;
+                }
+                else Kill();
+            }
             if (IsIdle)
             {
                 float ihealth = Mathf.Round(health);
 
-                if (ihealth <= 0) Kill();
+                if (ihealth <= 0)
+                {
+                    PlayDeath();
+                }
                 //m_text.text = tagname + "\n" + Mathf.Max(0, ihealth).ToString();
 
             }
@@ -117,6 +130,13 @@ namespace DungeonChef
             FindObjectOfType<RoundManager>().KillAdventurer(this);
         }
 
+        void PlayDeath()
+        {
+            delay = 2.0f;
+            IsDead = true;
+            DeathId = Random.Range(0, totalDeathAnimations);
+        }
+
         bool IsClipPlaying(string name)
         {
             return IsClipPlaying(name, animator);
@@ -125,6 +145,15 @@ namespace DungeonChef
         bool IsClipPlaying(string name, Animator anim)
         {
             return anim.GetCurrentAnimatorStateInfo(0).IsName(name);
+        }
+
+        bool IsDeathPlaying()
+        {
+            for (int i = 0; i < totalDeathAnimations; i++)
+            {
+                if (IsClipPlaying("Death " + i)) return true;
+            }
+            return false;
         }
 
         public bool Feed(InventorySlot slot)
@@ -138,6 +167,9 @@ namespace DungeonChef
 
                 health += effect;
                 UpdateText();
+
+                if (health <= 0.0f) PlayDeath();
+
                 return true;
             }
             return false;
