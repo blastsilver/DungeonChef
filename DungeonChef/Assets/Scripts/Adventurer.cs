@@ -36,7 +36,10 @@ namespace DungeonChef
         {
             if (slot.Item.IsRecipe)
             {
-                health += Random.Range(-3.0f, 4.0f);
+                float effect = Random.Range(-3.0f, 4.0f);
+                while (Mathf.Round(effect) == 0) effect = Random.Range(-3.0f, 4.0f);
+
+                health += effect;
                 UpdateText();
                 return true;
             }
