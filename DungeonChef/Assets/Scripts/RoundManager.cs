@@ -33,7 +33,7 @@ namespace DungeonChef
         void Update()
         {
             if (Input.GetKey(KeyCode.Escape))
-                Application.Quit();
+                SceneManager.LoadScene(0);
 
             if (Input.GetKeyDown(KeyCode.KeypadEnter))
             {
